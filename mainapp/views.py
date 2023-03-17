@@ -4,8 +4,7 @@ import requests
 import datetime
 import pytz
 def home(request):
-    return redirect('Nifty')
-
+    return render(request,'base.html')
 
 def heatmap(request):
     minerals = {'name':'Energy Minerals',"data":[],"class":"minerals"}
