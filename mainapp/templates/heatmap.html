@@ -450,8 +450,8 @@
       </div>
       {% endfor %}
     </div>
-    <script src="{% static 'html2canvas.min.js' %}"></script>
-    <script src="{% static 'canvas2image.js' %}"></script>
+    <script type="text/javascript" src="{% static 'html2canvas.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'canvas2image.js' %}"></script>
     <script>
         document.getElementById("shareBtn").addEventListener('click',()=>{
             document.getElementById("sensex").style.display = 'none';
