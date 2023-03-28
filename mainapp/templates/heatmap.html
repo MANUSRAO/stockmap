@@ -450,8 +450,8 @@
       </div>
       {% endfor %}
     </div>
-    <script type="text/javascript" src="{% static 'html2canvas.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'canvas2image.js' %}"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" type="text/javascript" referrerpolicy="no-referrer" crossorigin="anonymous"></script>
+    <script src="https://broven.github.io/canvas2image/canvas2image.js" type="text/javascript" referrerpolicy="no-referrer" crossorigin="anonymous"></script>
     <script>
         document.getElementById("shareBtn").addEventListener('click',()=>{
             document.getElementById("sensex").style.display = 'none';
