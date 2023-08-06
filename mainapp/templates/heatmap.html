@@ -60,10 +60,13 @@
         width: 15%;
       }
       .finance {
-        width: 40%;
+        width: 30%;
+      }
+      .insurance{
+        width:10%;
       }
       .tech {
-        width: 15%;
+        width: 20%;
       }
       .nonConsumer {
         width: 15%;
@@ -75,7 +78,7 @@
         width: 15%;
       }
       .consumer {
-        width: 30%;
+        width: 25%;
       }
       .health {
         width: 20%;
@@ -105,7 +108,8 @@
       .trading:hover,
       .hospital:hover,
       .power:hover,
-      .transport:hover {
+      .transport:hover,
+      .insurance:hover {
         color: #fff;
         border-radius: 1.5%;
         background-color: #2962ff;
@@ -142,7 +146,7 @@
         align-items: center;
       }
       .finance > .company-container > .company {
-        width: 25%;
+        width: 33.3%;
         height: 33.3%;
         padding: 1.5rem;
         display: flex;
@@ -150,9 +154,18 @@
         justify-content: center;
         align-items: center;
       }
-      .finance > .company-container > .company:nth-child(10) {
-        width: 50%;
+      .finance > .company-container > .company:nth-child(4) {
+        width: 66.6%;
         height: 33.3%;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .insurance > .company-container > .company {
+        width: 100%;
+        height: 50%;
         padding: 1.5rem;
         display: flex;
         flex-direction: column;
@@ -161,14 +174,6 @@
       }
       .tech > .company-container > .company {
         width: 50%;
-        height: 33.3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .tech > .company-container > .company:nth-child(5) {
-        width: 100%;
         height: 33.3%;
         display: flex;
         flex-direction: column;
