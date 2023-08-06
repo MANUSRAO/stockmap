@@ -118,15 +118,15 @@
       }
       .nonMinerals > .company-container > .company {
         width: 100%;
-        height: 50%;
+        height: 33.3%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       }
       .finance > .company-container > .company {
-        width: 33.3%;
-        height: 33.3%;
+        width: 25%;
+        height: 50%;
         padding: 1.5rem;
         display: flex;
         flex-direction: column;
@@ -423,8 +423,8 @@
       </div>
       {% endfor %}
     </div>
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js" type="text/javascript" referrerpolicy="no-referrer" crossorigin="anonymous"></script>
-    <script src="https://broven.github.io/canvas2image/canvas2image.js" type="text/javascript" referrerpolicy="no-referrer" crossorigin="anonymous"></script>
+    <script src="{% static 'html2canvas.min.js' %}"></script>
+    <script src="{% static 'canvas2image.js' %}"></script>
     <script>
         document.getElementById("shareBtn").addEventListener('click',()=>{
             document.getElementById("sensex").style.display = 'none';
